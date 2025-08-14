@@ -1,7 +1,5 @@
 **Fetch-user-data-task**
-
 Fetch user data using Fetch API and display  Users info
-
 
 **Objective** 
 Use JavaScript's Fetch API to retrieve and display user data dynamically on a webpage.
@@ -40,6 +38,7 @@ Tested offline (shows error if internet is disconnected)
 - Handles errors gracefully using `try...catch`
 -You should see the user data displayed with a reload button.
 -Test error handling by turning off your internet and clicking "Reload Users."
+-The list of users will display automatically.
 
 <img width="846" height="626" alt="xo" src="https://github.com/user-attachments/assets/45359805-8738-45d4-a82f-5cb777f942a1" />
 <img width="786" height="438" alt="Capture" src="https://github.com/user-attachments/assets/fec0110c-2795-432d-98f0-2b3ed81a8270" />
