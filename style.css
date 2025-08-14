@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 15px;
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #2a2a72;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #2a2a72;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #4949a5;
+}
+
+.user-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.user-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  line-height: 1.5;
+}
+
+.user-card strong {
+  color: #2a2a72;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
