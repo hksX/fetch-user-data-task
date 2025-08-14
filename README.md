@@ -38,7 +38,8 @@ Tested offline (shows error if internet is disconnected)
 - Styled with CSS for a clean and readable layout
 - Includes a **Reload** button to refetch user data
 - Handles errors gracefully using `try...catch`
-- Includes network error test: shows an error message if internet is disconnected
+-You should see the user data displayed with a reload button.
+-Test error handling by turning off your internet and clicking "Reload Users."
 
 <img width="846" height="626" alt="xo" src="https://github.com/user-attachments/assets/45359805-8738-45d4-a82f-5cb777f942a1" />
 <img width="786" height="438" alt="Capture" src="https://github.com/user-attachments/assets/fec0110c-2795-432d-98f0-2b3ed81a8270" />
